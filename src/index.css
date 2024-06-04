@@ -23,21 +23,22 @@ ul{
 .btn{
   padding: 12px 32px;
   font-size: 1rem;
-  text-tranform:uppercase;
-  background: rgb(248,217,150;
+  text-transform: uppercase;
+  background: rgb(248,217,15);
   color: #222;
   border: 1px solid #fff;
   font-weight:600;
   cursor: pointer;
-  )
+  
 }
 
 .btn-light{
-  background: tranparent;
+  background: transparent;
   color: #fff;
 }
-//The alpha value determines the transparency of the color. An alpha value of 0.2 means the color is 20% opaque and 80% transparent
-.btn-hover{
+
+.btn:hover{
   background: rgba(255,255,255,0.2);
   color: #fff;
+  transition: 0.3s;
 }
