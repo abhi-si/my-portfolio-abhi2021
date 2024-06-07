@@ -26,8 +26,15 @@
     padding-bottom: 1rem ;
     font-size: 1.1rem;
     text-align: center;
-
 }
+
+.project-details .truncate-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 250px; /* adjust the width to your liking */
+}
+
 .project-buttons{
     display: flex;
     justify-content: space-between;
@@ -36,13 +43,7 @@
 }
 
   
-/* .project-button .btn:first-child {
-    margin-right: 20px;
-}
-  
-.project-button .btn:last-child {
-    margin-left: 20px;
-} */
+
 
 
 @media screen and  (max-width: 740px){
