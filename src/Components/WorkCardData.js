@@ -1,5 +1,5 @@
-import pro1 from "../assets/pro1.png"
-import pro2 from "../assets/pro2.jpg"
+import pro1 from "../assets/proj1.png"
+import pro2 from "../assets/proj2.jpg"
 import pro3 from "../assets/pro3.jpg"
 
 const ProjectCardData = [
@@ -7,7 +7,7 @@ const ProjectCardData = [
         imgSrc: pro1,
         title: "Netflix-clone",
         text:"Discover a vast library of movies and TV shows with our Netflix-clone app, designed to provide an immersive and personalized streaming experience. Utilizing the TMDB API, our app offers comprehensive information on the latest releases, popular titles, and hidden gems. With Firebase authentication, users can enjoy a secure and seamless login process, ensuring a personalized and safe viewing experience.",
-        view: "",
+        view: "https://myreactproject-9a56a.web.app/",
         source:"https://github.com/abhi-si/react_cloneNetflix"
     },
     {
