@@ -8,7 +8,10 @@ const Form = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
+    const formData = new FormData(form.current);
+    console.log('Form Data:', Object.fromEntries(formData.entries()));
+  
     emailjs
       .sendForm('service_thzoo8o', 'template_gdayuhh', form.current, '6Cx7M-GZZoGi8hoiX')
       .then(
@@ -22,6 +25,7 @@ const Form = () => {
         }
       );
   };
+  
 
   return (
     <div className="form">
