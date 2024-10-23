@@ -1,5 +1,5 @@
-import pro1 from "../assets/proj1.png"
-import pro2 from "../assets/proj2.jpg"
+import pro1 from "../assets/pro1.png"
+import pro2 from "../assets/pro2.png"
 import pro3 from "../assets/pro3.jpg"
 
 const ProjectCardData = [
