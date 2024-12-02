@@ -1,6 +1,6 @@
 import pro1 from "../assets/pro1.png"
 import pro2 from "../assets/pro2.png"
-import pro3 from "../assets/pro3.jpg"
+import pro3 from "../assets/pro3.png"
 
 const ProjectCardData = [
   {
@@ -19,10 +19,10 @@ const ProjectCardData = [
   },
   {
     imgSrc: pro3,
-    title: "Coming soon",
-    text: "working on it",
-    view: "",
-    source: "",
+    title: "AI TRIP PLANNER",
+    text: "An intelligent trip planning application powered by Gemini AI, designed to create personalized travel plans. By gathering details like destination, trip duration, and number of travelers, the AI Trip Planner generates tailored itineraries, recommending activities, accommodations, and dining options for a seamless travel experience",
+    view: "https://ai-trip-planner-lac.vercel.app/",
+    source: "https://github.com/abhi-si/aiTripPlanner",
   },
 ];
 
